@@ -86,8 +86,8 @@
         <li><strong>Sign-in:</strong> a Google refresh token for each account, kept in the macOS Keychain. Short-lived access tokens are kept in memory only.</li>
         <li><strong>Mail cache:</strong> the message list (headers and short previews), your labels, and the conversations you've opened, so the app opens quickly and works offline. Older cached conversations are removed automatically.</li>
         <li><strong>App features:</strong> your snoozes, scheduled messages, follow-up reminders, Screener's allowed and blocked senders, Split Inbox tabs, profiles, quick replies, messages waiting to be sent while you're offline, and Privacy Report entries (the sender, subject, date and trackers found in tracked messages you opened).</li>
-        <li><strong>Suggestions:</strong> how often you've written to each address, used to rank address suggestions.</li>
-        <li><strong>Attachments:</strong> attachments you open or preview are copied to the app's temporary folder, which macOS clears automatically. Attachments you save go where you choose.</li>
+        <li><strong>Suggestions:</strong> how often you've written to each address from each account, used to rank address suggestions.</li>
+        <li><strong>Attachments:</strong> attachments you open, preview or drag out are copied to the app's temporary folder, which macOS also clears automatically. Attachments you save go where you choose.</li>
         <li><strong>Preferences:</strong> your account list (email address, name, colour, notification setting) and app settings.</li>
       </ul>
       <p>Mailroom does not sync this data to iCloud or to any server.</p>
@@ -125,9 +125,9 @@
       <h2 id="deletion">Retention and deleting your data</h2>
       <p>Mailroom keeps cached data only while the account is added to the app. You can delete it at any time:</p>
       <ul>
-        <li><strong>Remove an account:</strong> in Mailroom, open Settings ▸ Accounts, select the account, click −, then Remove Account. Mailroom revokes its access to your Google account, deletes the sign-in token from the Keychain, and deletes that account's cached mail, snoozes, scheduled messages, follow-ups, Screener lists and Privacy Report entries from your Mac.</li>
+        <li><strong>Remove an account:</strong> in Mailroom, open Settings ▸ Accounts, select the account, click −, then Remove Account. Mailroom revokes its access to your Google account, deletes the sign-in token from the Keychain, and deletes everything it stored for that account on your Mac: cached mail, opened attachments, snoozes, scheduled messages, follow-ups, Screener lists, Privacy Report entries and address-suggestion history. It also clears that account's notifications from Notification Center.</li>
         <li><strong>Revoke access from Google:</strong> you can also remove Mailroom's access at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
-        <li><strong>Delete everything:</strong> deleting the Mailroom app removes the rest of its data from your Mac, such as your preferences, Split Inbox tabs and address-suggestion history.</li>
+        <li><strong>Delete everything:</strong> deleting the Mailroom app removes the rest of its data from your Mac. What's left after removing your accounts isn't tied to any account: your preferences, Split Inbox tabs and profiles.</li>
       </ul>
       <p>Removing an account deletes nothing from Gmail. Anything Mailroom created inside your mailbox, such as the "Snoozed" and "Screener" labels or the filters made by Screener and Sender Cleanup, stays in Gmail until you delete it there.</p>
       <p>Because we hold none of your data on our side, there is nothing for us to delete on request; the steps above remove everything. If you have questions, contact us below.</p>
