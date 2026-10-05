@@ -126,3 +126,9 @@ footer.site a { color: var(--muted); margin-right: 18px; }
   .hero h1 { font-size: 34px; }
   nav a:not(:last-child) { display: none; }
 }
+
+footer.site span a { margin-right: 0; }
+
+.app-link { display: flex; gap: 18px; align-items: center; text-decoration: none; color: inherit; }
+.app-link img { width: 72px; height: 72px; flex: none; }
+.app-link:hover h3 { color: var(--accent); }

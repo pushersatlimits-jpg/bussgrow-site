@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mailroom — a native Gmail app for Mac</title>
+  <meta name="description" content="Mailroom is a fast, native Mac app for Gmail. Your mail goes only between Google and your Mac.">
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="./"><img src="icon.png" alt="">Mailroom</a>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#google-data">Google data</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero wrap">
+      <img src="icon.png" alt="Mailroom app icon">
+      <h1>Mailroom</h1>
+      <p class="lede">A fast, native Mac app for Gmail and Google Workspace. Your mail goes only between Google and your Mac. There are no Mailroom servers in between.</p>
+      <span class="badge">Coming soon to the Mac App Store</span>
+      <p class="note">Requires macOS 14 Sonoma or later.</p>
+    </div>
+
+    <section id="features">
+      <div class="wrap">
+        <h2>What Mailroom does</h2>
+        <p class="intro">Everything you do in Gmail, in a Mac app built for speed and keyboard shortcuts, plus tools that keep your inbox under control.</p>
+        <div class="grid">
+          <div class="card"><h3>Your whole inbox</h3><p>A unified inbox across accounts, with conversations, Gmail labels and categories, and instant search.</p></div>
+          <div class="card"><h3>Write and send</h3><p>Rich-text compose, send-as aliases, signatures, Undo Send, and drafts saved to Gmail.</p></div>
+          <div class="card"><h3>Calendar invites</h3><p>RSVP to an invitation from the message and see that day's agenda beside it.</p></div>
+          <div class="card"><h3>Contact suggestions</h3><p>Addresses from Google Contacts, Other contacts and Apple Contacts as you type.</p></div>
+          <div class="card"><h3>Gmail settings</h3><p>Manage labels, filters, the vacation responder and signatures without opening a browser.</p></div>
+          <div class="card"><h3>Tracker blocking</h3><p>Tracking pixels and known tracker domains are blocked, so senders can't see when you read their mail.</p></div>
+          <div class="card"><h3>Split Inbox<span class="pro">PRO</span></h3><p>Tabs above the Inbox for VIPs, your team, newsletters, receipts, or any Gmail search.</p></div>
+          <div class="card"><h3>Screener<span class="pro">PRO</span></h3><p>Mail from first-time senders waits for you to allow or block them.</p></div>
+          <div class="card"><h3>Sender Cleanup<span class="pro">PRO</span></h3><p>See who sends you the most mail, then unsubscribe, archive or auto-archive in one click.</p></div>
+          <div class="card"><h3>Snooze and Send Later<span class="pro">PRO</span></h3><p>Bring a conversation back when you need it, or schedule a message to go out later.</p></div>
+          <div class="card"><h3>Follow-up Reminders<span class="pro">PRO</span></h3><p>If nobody replies by the time you choose, the conversation comes back to the top of your Inbox.</p></div>
+          <div class="card"><h3>Privacy Report and Link Safety<span class="pro">PRO</span></h3><p>See which senders track you, and get warnings about look-alike or misleading links before you open them.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="google-data">
+      <div class="wrap">
+        <h2>Why Mailroom needs access to your Google data</h2>
+        <p class="intro">Mailroom is a Gmail app, so it asks Google for permission to work with your mail, your Gmail settings, your contacts and your calendar. Each permission is used only for the features below.</p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Permission</th><th>What Mailroom uses it for</th></tr></thead>
+            <tbody>
+              <tr><td>Your Google account's email address, name and basic profile</td><td>Identifying which account you signed in with, and showing its name in Settings.</td></tr>
+              <tr><td>Read, compose, send and organize your Gmail messages<br><code>gmail.modify</code></td><td>Showing your mail, sending replies and new messages, saving drafts, applying labels, archiving, moving to Trash, Snooze, Send Later, Screener and Sender Cleanup. Mailroom never permanently deletes mail.</td></tr>
+              <tr><td>Manage your basic Gmail settings<br><code>gmail.settings.basic</code></td><td>Settings ▸ Filters, the vacation responder and signatures, plus the Gmail filters that Screener's Block and Sender Cleanup's Auto-Archive create.</td></tr>
+              <tr><td>See your contacts and "Other contacts"<br><code>contacts.readonly</code>, <code>contacts.other.readonly</code></td><td>Suggesting addresses while you write a message.</td></tr>
+              <tr><td>View and edit events on your calendars<br><code>calendar.events</code></td><td>Showing the day's agenda next to an invitation, and saving your RSVP when you reply to it.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Your Google data is used only to provide these features to you. It is fetched directly from Google to your Mac and cached only on your Mac. Mailroom has no servers that receive it, so it is never sold, never shared, never used for advertising, never used to train AI models, and never read by anyone else. Read the <a href="privacy.html">Privacy Policy</a> for the details.</p>
+        <div class="callout">
+          <p>Mailroom's use of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. The use of information received from Google Workspace APIs will adhere to the <a href="https://developers.google.com/workspace/workspace-api-user-data-developer-policy">Google Workspace API User Data and Developer Policy</a>, including the Limited Use requirements.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="support">
+      <div class="wrap">
+        <h2>Support</h2>
+        <p>Questions, bug reports or privacy requests: <a href="mailto:pushersatlimits@gmail.com">pushersatlimits@gmail.com</a>.</p>
+        <p>To remove an account and delete everything Mailroom stored for it, open Mailroom's Settings ▸ Accounts, select the account, click −, then Remove Account. See <a href="privacy.html#deletion">Deleting your data</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="mailto:pushersatlimits@gmail.com">Contact</a>
+      <span>© 2026 <a href="../">Bussgrow</a>. Gmail and Google Workspace are trademarks of Google LLC.</span>
+    </div>
+  </footer>
+</body>
+</html>
