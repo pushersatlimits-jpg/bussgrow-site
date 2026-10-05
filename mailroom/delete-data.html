@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Delete your data — Mailroom</title>
+  <meta name="description" content="How to remove an account from Mailroom, revoke its Google access, and delete everything Mailroom stored on your Mac.">
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="./"><img src="icon.png" alt="">Mailroom</a>
+      <nav>
+        <a href="./#features">Features</a>
+        <a href="./#google-data">Google data</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article class="policy">
+      <h1>Delete your data</h1>
+      <p class="updated">Updated 5 October 2026</p>
+
+      <div class="callout">
+        <p><strong>In short:</strong> Mailroom keeps your data only on your Mac. We have no servers, so there is nothing stored on our side to delete. Removing an account in Mailroom revokes its Google access and deletes everything Mailroom stored for it. Nothing is deleted from Gmail.</p>
+      </div>
+
+      <h2 id="remove-account">1. Remove an account from Mailroom</h2>
+      <ol>
+        <li>Open Mailroom and choose <strong>Mailroom ▸ Settings</strong> (⌘,).</li>
+        <li>Click the <strong>Accounts</strong> tab and select the account.</li>
+        <li>Click the <strong>−</strong> button, then <strong>Remove Account</strong> to confirm.</li>
+      </ol>
+      <p>Mailroom then:</p>
+      <ul>
+        <li>revokes its access to that Google account. If your Mac is offline, it does this automatically as soon as you're back online;</li>
+        <li>deletes the account's sign-in token from the macOS Keychain;</li>
+        <li>deletes everything it stored for the account on your Mac: cached mail, opened attachments, snoozes, scheduled messages, follow-up reminders, Screener lists, Privacy Report entries and address-suggestion history;</li>
+        <li>clears the account's notifications from Notification Center.</li>
+      </ul>
+      <p>Messages you scheduled with Send Later are Gmail drafts. After you remove the account they stay in that account's Drafts folder in Gmail, and Mailroom won't send them.</p>
+
+      <h2 id="revoke">2. Revoke access from your Google account</h2>
+      <p>You can also remove Mailroom's access from Google's side at any time:</p>
+      <ol>
+        <li>Go to <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> and sign in.</li>
+        <li>Select <strong>Mailroom</strong> and remove its access.</li>
+      </ol>
+      <p>This stops Mailroom from reaching your Google data, but it doesn't delete what Mailroom cached on your Mac. To delete that too, remove the account in Mailroom (step 1) or delete the app (step 3).</p>
+
+      <h2 id="delete-everything">3. Delete everything</h2>
+      <ol>
+        <li>Remove each account in Mailroom (step 1). This also revokes each account's Google access.</li>
+        <li>Quit Mailroom and move it from the Applications folder to the Trash.</li>
+        <li>Optionally, to remove every remaining file: in Finder choose <strong>Go ▸ Go to Folder…</strong>, enter <code>~/Library/Containers/lp.Mailroom</code>, and move that folder to the Trash.</li>
+      </ol>
+      <p>Once all accounts are removed, the only data left is not tied to any account: your preferences, Split Inbox tabs and profiles. Deleting the app and its folder removes them.</p>
+
+      <h2 id="gmail">4. What stays in Gmail</h2>
+      <p>Mailroom works on your mailbox in Gmail, so anything it created there is part of your Google account and stays until you delete it in Gmail:</p>
+      <ul>
+        <li><strong>Labels:</strong> "Snoozed" and "Screener". In Gmail on the web, hover over the label in the left sidebar, click <strong>⋮</strong>, then <strong>Remove label</strong>.</li>
+        <li><strong>Filters:</strong> the ones made by Screener (Block) and Sender Cleanup (Auto-Archive). In Gmail on the web, open <strong>Settings ▸ See all settings ▸ Filters and Blocked Addresses</strong>, select them, then click <strong>Delete</strong>.</li>
+        <li><strong>Drafts</strong> and messages you sent, which are in your Gmail folders like any other mail.</li>
+      </ul>
+
+      <h2 id="subscription">5. Cancel a Mailroom Pro subscription</h2>
+      <p>Deleting your data or the app doesn't cancel a subscription. To cancel, open the <strong>App Store</strong>, click your name, then <strong>Account Settings ▸ Subscriptions ▸ Manage</strong>. You can also go to <strong>System Settings ▸ [your name] ▸ Media &amp; Purchases ▸ Subscriptions</strong>.</p>
+
+      <h2 id="contact">Questions</h2>
+      <p>For help with deleting your data, email <a href="mailto:pushersatlimits@gmail.com">pushersatlimits@gmail.com</a>. Our <a href="privacy.html">Privacy Policy</a> explains what Mailroom stores and why.</p>
+    </article>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <a href="./">Home</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+      <a href="mailto:pushersatlimits@gmail.com">Contact</a>
+      <span>© 2026 <a href="../">Bussgrow</a>. Gmail and Google Workspace are trademarks of Google LLC.</span>
+    </div>
+  </footer>
+</body>
+</html>
